@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clothing website</title>
+    <link rel="stylesheet" media="screen and (max-width:1190px)" href="css/phone.css">
+    <style>
+        BODY{
+            background-color: rgb(244, 179, 244);
+        }
+        hmtl{
+            scroll-behaviour:smooth;
+        }
+        #navbar{
+            display: flex;
+            align-items: center;
+        }
+        #box1 h2 span{
+            color: blueviolet;
+        
+        }
+    
+        
+        #navbar{
+            position: relative;
+        }
+        #navbar ul{
+            display: flex;
+        }
+        #navbar::before{
+            content: ;
+            background-color: rgb(225, 235, 235);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        #navbar ul li{
+            font-size: 1.1rem;
+            list-style: none;
+        }
+        #navbar ul li a{
+            color: black;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        #navbar ul li a:hover{
+            background-color: blueviolet;
+            color: white;
+            box-sizing:content-box;
+            
+        }
+    #home{
+        display: fx;
+        flex-direction: column;
+        padding:  3px 2px;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #home::before{
+        content: "";
+        background: url(purple.jpg)no-repeat center center/cover;
+        position: absolute;
+        height: 569px;
+        width: 2000px;
+        margin: ;
+        z-index: -1;
+        opacity: 0.89;
+        cursor: c;
+        b
+        
+        
+        
+    }
+    #home h1{
+        color: black;
+        text-align: :left;
+    }
+    #home h3{
+        padding: 40px 100px;
+        color: black;
+    }
+     .h-primary{
+        font-size: 2.9rem;
+        padding: 12px;
+        font-style: italic;
+     }
+     .h-secondary{
+        font-size: 2.5rem;
+        padding: 4px;
+        font-size: italic;
+        
+     }
+        #home p{
+            color: antiquewhite;
+            text-align: center;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+        .btn{
+            background-color: blueviolet;
+            color: azure;
+            padding: 6px 20px;
+            margin: 17px;
+            font-size: 1.5rem;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+        .center{
+            text-align: center;
+        }
+        #CATEGORIES{
+            margin: 40px;
+            display: flex;
+        }
+        #CATEGORIES .box{
+              border: 5px solid rgb(245, 181, 103);         
+            padding: 15px;
+            margin: 3px px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            background-color: blueviolet;
+            width: 100%;
+
+        }
+        #CATEGORIES .box:hover{
+            box-shadow: 5px 5px;
+        }
+       #CATEGORIES .box img{
+        height: 300px;
+        margin: auto;
+        display: block;
+        ;
+        
+       }
+       #CATEGORIES .box img:hover{
+        box-shadow: 10px 3px 9px;
+        background-color: yellow;
+       }
+       #CATEGORIES .box p{
+        font-size: 1.1rem;
+       }
+       #SHOP{
+        position: relative;
+        height: 300px;
+        font-size: 2.2rem;
+       }
+       #SHOP-section::before{
+        content: "";
+        position: absolute;
+        background-color:
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.4;
+        
+       }
+       #SHOP img{
+        height: 200px;
+    ;
+       }
+       #SHOP .SHOP-item img:hover{
+        box-shadow: px 3px;
+       }
+        #SHOP{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            font-size: 2.2rem;
+        
+        }
+        #SHOP .SHOP-item{
+         border: 5px solid rgb(245, 181, 103) ;
+         padding: 20px;
+         margin: 3px 10px;
+         border-radius: 20px;
+         background-color: blueviolet;
+
+        }
+        #SHOP .SHOP-item:hover{
+            box-shadow: 3px 3px;
+        }
+        .SHOP-item{
+            padding: 40px;
+        }
+        footer{
+            background-color: rgb(227, 223, 218);
+            color: rgb(127, 157, 182);
+            padding: 3px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="box1">
+            <h2><span>FASHION</span><br>CLOTHING</span></h2>
+            
+             
+            
+     </div>
+     <ul>
+          <li class="item"> <a href="#HOME">HOME</a></li>
+          <li class="item"> <a href="#CATEGORIES">CATEGORIES</a></li>
+          <li class="item"> <a href="#SHOP">SHOP</a></li>
+          <li class="item"> <a href="#CONTACT US">CONTACT US</a></li>
+     </ul>
+    </nav>
+    <section id="home">
+         <h1 class="h-primary">INSPIRE WITH YOUR STYLE</h1>
+        <button class="btn">SHOP NOW</button>
+        <h3><BR>EVERYTHING<BR>UPTO 70% OFF</h3>
+        </section>
+
+        <section class="servise-container">
+            <h1 class="h-primary center">  CATEGORIES</h1>
+            <div id="CATEGORIES">
+                    <div class="box">
+                        <img src="summer.jpg">
+                        <h1 class="h-secondary center">SUMMER COLLECTION</h1>
+                        <p class="center"> FOR YOUR SUMMER AESTHETICS....</p>
+                </div>
+                <div class="box">
+                    <img src="winter.jpg">
+                    <h2 class="h-secondary center">WINTER COLLECTION</h2>
+                    <p class="center">FOR YOUR WINTER STYLING.....</p>
+                
+                </div>
+ </section>
+ <section id="SHOP-section">
+    <h1 class="h-primary center">SHOP </h1>
+    <div id="SHOP">
+        <div class="SHOP-item">
+            <img src="logo.2.avif">
+    </div>
+    <div class="SHOP-item">
+    <img src="acc .jpg">
+    </div>
+    <div class="SHOP-item">
+        <img src="luxury.jpg">
+    </div>
+ </section>
+ <footer>
+    <div class="center">
+        copywrite & copy;www.myfashionclothing.com ALL RIGHTS RESERVED!
+    </div>
+ </footer>
+</body>
+</html>
